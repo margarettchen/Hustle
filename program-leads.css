@@ -63,21 +63,19 @@ hr {
 }
 
 @font-face {
-    font-family: 'gothamlightregular';
-    src: url('gothamlight-webfont.woff2') format('woff2'),
-         url('gothamlight-webfont.woff') format('woff');
+    font-family: 'GothamLight';
+    src: url('fonts/gothamlight-webfont.woff2') format('woff2'),
+         url('fonts/gothamlight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
-    font-family: 'museo300';
-    src: url('exljbris_-_museo-300-webfont.woff2') format('woff2'),
-         url('exljbris_-_museo-300-webfont.woff') format('woff');
+    font-family: 'Museo';
+    src: url('fonts/exljbris_-_museo-300-webfont.woff2') format('woff2'),
+         url('fonts/exljbris_-_museo-300-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @media screen and (max-width: 1100px) {
