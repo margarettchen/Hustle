@@ -5,8 +5,12 @@ body {
   font-family: 'Italiana', serif;
   font-style: bold;
   background-color: #8585ad; opacity: 0.9;
-
+  text-align: center;
+  color:#fff;
+  padding-top:10em;
 }
+
+* { color:#fff; text-decoration: none;}
 
 /*.main-container {
 	background-color: white;
