@@ -1,0 +1,65 @@
+body {
+	background-image: 
+		linear-gradient(
+			to right, 
+			#0B1620, #29445B
+		);
+	color: white;
+}
+
+.main-container {
+	width: 80%;
+	margin-left: 10%;
+}
+
+h1 {
+	font-family: 'Museo', sans-serif;
+	font-size: 36px;
+	margin-top: -1%;
+}
+
+img {
+	width: 50%;
+}
+
+.instructor-row {
+	font-family: 'GothamLight', sans-serif;
+	padding-top: 3%;
+}
+
+.block {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+
+.bio {
+	margin-left: -40%;
+}
+
+.TA-row {
+	font-family: 'GothamLight', sans-serif;
+	margin-top: 4%;
+	margin-left: 5%;
+}
+
+.TA-row img {
+	padding-left: 30%;
+}
+
+.TA-block h1 {
+	font-size: 28px;
+}
+
+p {
+	line-height: 120%
+}
+
+hr {
+     background: #848D95; 
+     width: 100%; 
+     height: 0.1px;
+     margin-top: 3%;
+}
+
+
