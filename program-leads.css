@@ -33,6 +33,10 @@ img {
 	vertical-align: top;
 }
 
+.bio {
+	margin-left: -40%;
+}
+
 .TA-row {
 	font-family: 'GothamLight', sans-serif;
 	margin-top: 4%;
@@ -64,7 +68,7 @@ hr {
 	}
 
 	p {
-		font-size: 14px;
+		font-size: 16px;
 	}
 }
 
@@ -80,4 +84,55 @@ hr {
 	}
 }
 
+@media screen and (max-width: 790px) {
+	.bio {
+		padding-left: 30%;
+	}
 
+	h1 {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 610px) {
+	.block {
+		width: 100%;
+	}
+
+	.bio {
+		width: 98%;
+	}
+
+	.instructor-row {
+		padding-left: 15%;
+	}
+
+	.instructor-row img {
+		padding-left: 13%;
+	}
+}
+
+@media screen and (max-width: 435px) {
+	.pagetitle {
+		text-align: center;
+	}
+
+	img {
+		width: 150px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+
+	img {
+		width: 120px;
+	}
+
+	h1 {
+		font-size: 25px;
+	}
+
+	p {
+		font-size: 14px;
+	}
+}
