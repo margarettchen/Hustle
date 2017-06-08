@@ -245,6 +245,15 @@ p {
   padding-left: 20px;
   vertical-align: top; }
 
+  @font-face {
+    font-family: 'gothammediumregular';
+    src: url('fonts1/gothammedium-webfont.woff2') format('woff2'),
+         url('fonts1/gothammedium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
   @media (max-width: 1150px) {
   	.grid__col {
   		width: 50%;
