@@ -1,4 +1,12 @@
 @charset "UTF-8";
+body {
+	background-image: 
+		linear-gradient(
+			to right, 
+			#0B1620, #29445B
+		);
+	color: white;
+}
 
 .title {
 	font-family: "GothamMedium", sans-serif;
@@ -14,6 +22,16 @@ img {
 h3 {
 	font-family: "Museo", sans-serif;
 	text-align: center;
+	font-size: 15pt;
+}
+
+p {
+	text-align: center;
+	font-family: "GothamLight", sans-serif;
+}
+
+.higher {
+	padding-top: 9.5%;
 }
 
 .grid {
