@@ -434,6 +434,7 @@ h1{
     );
   color: white;
   padding-top: 6%;
+  padding-bottom: 3%;
 }
 
 .main-container {
@@ -599,4 +600,59 @@ hr {
     margin-top: 100%;
   }
 }
-  }
+
+
+
+/*CSS FOR FOOTER SECTION*/
+
+.footer {
+  background-color: black;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  padding-left: 10%;
+}
+
+.footer-col {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+
+input {
+  background-color: white;
+  color: black;
+  width: 80%;
+  height: 35px;
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 5px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'GothamLight', sans-serif;
+}
+
+#footer-info {
+  font-family: 'Museo', sans-serif;
+  font-size: 20pt;
+}
+
+#subscribe {
+  background-color: black;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: 'GothamLight', sans-serif;
+  width: 80%;
+  height: 35px;
+  margin: 5px 0;
+}
+
+
+
+
+
+
+
+
+
