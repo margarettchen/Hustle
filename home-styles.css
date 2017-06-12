@@ -24,10 +24,10 @@ h3 {
   color:#fff;
   position: absolute;
   bottom: 280px;
-  left: 20%;
+  left: 15%;
   z-index: 100;
   font-family: 'GothamMedium', sans-serif;
-  font-size: 50px;
+  font-size: 20pt;
 }
 
 h2 {
@@ -35,10 +35,16 @@ h2 {
   color:#fff;
   position: absolute;
   bottom: 200px;
-  left: 57%;
+  left: 15%;
   z-index: 100;
-  font-size: 40px;
+  font-size: 40pt;
   font-family: 'GothamMedium', sans-serif;
+}
+
+.hustle-desc p {
+  left: 15%;
+  top: 65%;
+  position: absolute;
 }
 
 * { color:#fff; text-decoration: none;}
@@ -185,18 +191,6 @@ h2 {
 }
 
 
-@media screen and (max-width: 950px) {
-  h3 {
-    left: 450px;
-  }
-
-  .logo img {
-    width: 60px;
-  }
-}
-
-
-
 
 
 /*css for past projects page*/
@@ -212,7 +206,7 @@ h2 {
   color: white;
   font-family: "GothamMedium", sans-serif;
   text-align: center;
-  font-size: 36pt;
+  font-size: 40pt;
 }
 
 .container {
@@ -385,7 +379,7 @@ h2 {
 .pagetitle h1 {
   font-family: "GothamMedium", sans-serif;
   text-align: center;
-  font-size: 36pt;
+  font-size: 40pt;
 }
 
 .program-leads-page {
