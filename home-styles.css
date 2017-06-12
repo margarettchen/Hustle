@@ -23,14 +23,14 @@ h3 {
   text-align: center;
   color: white;
   position: absolute;
-  bottom: 280px;
-  left: 20%;
+  bottom: 350px;
+  left: 10%;
   z-index: 100;
   font-family: 'GothamMedium', sans-serif;
   font-size: 30px;
 }
 
-h2 {
+#typewriting {
   text-align: center;
   color:#fff;
   position: absolute;
@@ -41,20 +41,22 @@ h2 {
   font-family: 'GothamMedium', sans-serif;
 }
 
-#hustle-desc {
-  color: white;
+.hustle-desc p {
+  left: 10%;
+  bottom: 200px;
+  position: absolute;
+  font-size: 14pt;
 }
 
 * { color:#fff; text-decoration: none;}
 
 
 .myButton:hover {
-  background-color:transparent;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
-.myButton:active {
-  position:relative;
-  top:1px;
-}
+
 .nav-container{
   background-color: transparent;
 	width: 100%;
@@ -63,8 +65,7 @@ h2 {
 
 /* Dropdown Button */
 .dropbtn {
-    padding: ;
-    font-size: 16px;
+    font-size: 14pt;
     border: none;
     cursor: pointer;
     background-color: transparent;
@@ -188,14 +189,149 @@ h2 {
   left: 450px;
 }
 
+@media screen and (max-width: 1050px) {
+  .myButton {
+    left: 330px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .apply-button {
+    width: 100px;
+  }
+}
+
+
+
+
+/*CSS FOR TIMELINE*/
+
+.timeline h1 {
+  margin: auto 0;
+  font-family: "GothamMedium", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 40pt;
+}
+
+.timeline {
+  margin-top: 50%;
+}
+
+#meeting-times {
+  text-align: center;
+  color: white;
+}
+
+.timeline{
+  background: #5775a5;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background-color: white;
+  color: white;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+  color: black;
+}
+
+.timeline ul li div {   /*SQUARE SIZE FOR TIMELINE !!!!!*/
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #333243 ; opacity: 0.5;
+}
+
+.timeline ul li .square::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+.timeline ul li:nth-child(odd) .square{
+  left: 35px;
+}
+
+.timeline ul li:nth-child(odd) .square::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #040075 transparent transparent;
+}
+.timeline ul li:nth-child(even) .square::before {
+  left: -15px;
+/*  transform: rotate(180deg)*/
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #040075 transparent transparent;
+}
 
 @media screen and (max-width: 950px) {
-  h3 {
-    left: 450px;
+  .timeline ul li:nth-child(even) .square{
+    left: -439px;
   }
 
-  .logo img {
-    width: 60px;
+  .timeline ul li:nth-child(even) .square{
+    right: -15px;
+    border-width: 8px 0 8px 16px;
+    background-color: rgb(51, 50, 67);
+  }
+}
+@media screen and (max-width: 920px) {
+  .timeline ul, menu, dir {
+      -ms-transform: translate(-300px);
+      -webkit-transform: translate(-300px);
+
+  }
+  
+  .timeline{
+    overflow-x: hidden;
+  }
+  
+  .dos, .quatro{
+    -ms-transform: translate(450px); /* IE 9 */
+    -webkit-transform: translate(450px); /* Safari */
+  }
+  
+  .tres, .uno{
+    -ms-transform: translate(-20px); /* IE 9 */
+    -webkit-transform: translate(-20px); /* Safari */
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .timeline ul {
+    transform: translate(-250px); /* IE 9 */
+    -webkit-transform: translate(-250px); /* Safari */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .timeline ul {
+    transform: translate(-190px); /* IE 9 */
+    -webkit-transform: translate(-190px); /* Safari */
+  }
+
+  .timeline ul li div {   /*SQUARE SIZE FOR TIMELINE !!!!!*/
+    width: 300px;
   }
 }
 
@@ -203,11 +339,13 @@ h2 {
 
 
 
+
 /*css for past projects page*/
 .past-projects {
-  margin-top: 55%;
-  background-color: #2D3741;
-  padding-bottom: 50px;
+  background: #4B79A1;
+  background: -webkit-radial-gradient(#345673 , #0e1c27);
+  background: radial-gradient( #345673 , #0e1c27);
+  padding-bottom: 5%;
   padding-top: 5%;
 }
 
@@ -216,7 +354,7 @@ h2 {
   color: white;
   font-family: "GothamMedium", sans-serif;
   text-align: center;
-  font-size: 36pt;
+  font-size: 40pt;
 }
 
 .container {
@@ -257,6 +395,7 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  width: 60%;
 }
 
 .project-row {
@@ -277,7 +416,7 @@ h2 {
   padding: 2% 3% 1.5% 7%;
   margin-top: 5%;
   background-color: white;
-  line-height: 130%
+  font-family: "GothamLight", sans-serif;
 
   
 }
@@ -389,18 +528,14 @@ h2 {
 .pagetitle h1 {
   font-family: "GothamMedium", sans-serif;
   text-align: center;
-  font-size: 36pt;
+  font-size: 40pt;
 }
 
 .program-leads-page {
-  background-image: 
-    linear-gradient(
-      to right, 
-      #0B1620, #29445B
-    );
+  background: #0E1C27;
   color: white;
-  padding-top: 6%;
-  padding-bottom: 3%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .main-container {
@@ -574,7 +709,7 @@ hr {
 .footer {
   background-color: black;
   padding-bottom: 3%;
-  padding-top: 3%;
+  padding-top: 5%;
   padding-left: 10%;
 }
 
