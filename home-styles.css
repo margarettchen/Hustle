@@ -24,7 +24,7 @@ h3 {
   color:#fff;
   position: absolute;
   bottom: 350px;
-  left: 13%;
+  left: 10%;
   z-index: 100;
   font-family: 'GothamMedium', sans-serif;
   font-size: 20pt;
@@ -35,14 +35,14 @@ h2 {
   color:#fff;
   position: absolute;
   bottom: 260px;
-  left: 13%;
+  left: 10%;
   z-index: 100;
   font-size: 40pt;
   font-family: 'GothamMedium', sans-serif;
 }
 
 .hustle-desc p {
-  left: 13%;
+  left: 10%;
   bottom: 200px;
   position: absolute;
   font-size: 14pt;
@@ -65,7 +65,6 @@ h2 {
 
 /* Dropdown Button */
 .dropbtn {
-    padding: ;
     font-size: 14pt;
     border: none;
     cursor: pointer;
@@ -196,8 +195,10 @@ h2 {
 /*css for past projects page*/
 .past-projects {
   margin-top: 55%;
-  background-color: #2D3741;
-  padding-bottom: 50px;
+  background: #4B79A1;
+  background: -webkit-radial-gradient(#345673 , #0e1c27);
+  background: radial-gradient( #345673 , #0e1c27);
+  padding-bottom: 5%;
   padding-top: 5%;
 }
 
@@ -247,6 +248,7 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  width: 60%;
 }
 
 .project-row {
@@ -267,7 +269,7 @@ h2 {
   padding: 2% 3% 1.5% 7%;
   margin-top: 5%;
   background-color: white;
-  line-height: 130%
+  font-family: "GothamLight", sans-serif;
 
   
 }
@@ -383,14 +385,10 @@ h2 {
 }
 
 .program-leads-page {
-  background-image: 
-    linear-gradient(
-      to right, 
-      #0B1620, #29445B
-    );
+  background: #0E1C27;
   color: white;
-  padding-top: 6%;
-  padding-bottom: 3%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .main-container {
@@ -564,7 +562,7 @@ hr {
 .footer {
   background-color: black;
   padding-bottom: 3%;
-  padding-top: 3%;
+  padding-top: 5%;
   padding-left: 10%;
 }
 
