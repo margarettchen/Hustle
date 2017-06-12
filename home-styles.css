@@ -30,7 +30,7 @@ h3 {
   font-size: 20pt;
 }
 
-h2 {
+#typewriting {
   text-align: center;
   color:#fff;
   position: absolute;
@@ -203,9 +203,145 @@ h2 {
 
 
 
+
+/*CSS FOR TIMELINE*/
+
+.timeline h1 {
+  margin: auto 0;
+  font-family: "GothamMedium", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 40pt;
+}
+
+.timeline {
+  margin-top: 50%;
+}
+
+#meeting-times {
+  text-align: center;
+  color: white;
+}
+
+.timeline{
+  background: #5775a5;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background-color: white;
+  color: white;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+  color: black;
+}
+
+.timeline ul li div {   /*SQUARE SIZE FOR TIMELINE !!!!!*/
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #333243 ; opacity: 0.5;
+}
+
+.timeline ul li .square::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+.timeline ul li:nth-child(odd) .square{
+  left: 35px;
+}
+
+.timeline ul li:nth-child(odd) .square::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #040075 transparent transparent;
+}
+.timeline ul li:nth-child(even) .square::before {
+  left: -15px;
+/*  transform: rotate(180deg)*/
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #040075 transparent transparent;
+}
+
+@media screen and (max-width: 950px) {
+  .timeline ul li:nth-child(even) .square{
+    left: -439px;
+  }
+
+  .timeline ul li:nth-child(even) .square{
+    right: -15px;
+    border-width: 8px 0 8px 16px;
+    background-color: rgb(51, 50, 67);
+  }
+}
+@media screen and (max-width: 920px) {
+  .timeline ul, menu, dir {
+      -ms-transform: translate(-300px);
+      -webkit-transform: translate(-300px);
+
+  }
+  
+  .timeline{
+    overflow-x: hidden;
+  }
+  
+  .dos, .quatro{
+    -ms-transform: translate(450px); /* IE 9 */
+    -webkit-transform: translate(450px); /* Safari */
+  }
+  
+  .tres, .uno{
+    -ms-transform: translate(-20px); /* IE 9 */
+    -webkit-transform: translate(-20px); /* Safari */
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .timeline ul {
+    transform: translate(-250px); /* IE 9 */
+    -webkit-transform: translate(-250px); /* Safari */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .timeline ul {
+    transform: translate(-190px); /* IE 9 */
+    -webkit-transform: translate(-190px); /* Safari */
+  }
+
+  .timeline ul li div {   /*SQUARE SIZE FOR TIMELINE !!!!!*/
+    width: 300px;
+  }
+}
+
+
+
+
+
+
 /*css for past projects page*/
 .past-projects {
-  margin-top: 55%;
   background: #4B79A1;
   background: -webkit-radial-gradient(#345673 , #0e1c27);
   background: radial-gradient( #345673 , #0e1c27);
