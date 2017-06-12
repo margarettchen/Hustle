@@ -16,6 +16,7 @@ body {
 	margin: 0;
 	padding: 0;
   font-family: 'GothamLight', sans-serif;
+  overflow-x: hidden;
 }
 
 h3 {
@@ -163,6 +164,7 @@ h2 {
   display: inline-block;
   top: 50%;
   left: 50%;
+  min-width: 100%;
   width: auto;
   height: 600px;
   z-index: -100;
@@ -172,6 +174,7 @@ h2 {
   transition: 1s opacity;
   margin-top: 300px;
 }
+
 
 @media screen and (max-width: 950px) {
   h3 {
