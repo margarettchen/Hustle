@@ -21,13 +21,13 @@ body {
 
 h3 {
   text-align: center;
-  color:#fff;
+  color: white;
   position: absolute;
   bottom: 280px;
   left: 20%;
   z-index: 100;
   font-family: 'GothamMedium', sans-serif;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 h2 {
@@ -35,10 +35,14 @@ h2 {
   color:#fff;
   position: absolute;
   bottom: 200px;
-  left: 57%;
+  left: 20%;
   z-index: 100;
-  font-size: 40px;
+  font-size: 55px;
   font-family: 'GothamMedium', sans-serif;
+}
+
+#hustle-desc {
+  color: white;
 }
 
 * { color:#fff; text-decoration: none;}
