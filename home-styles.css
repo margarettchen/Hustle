@@ -13,9 +13,9 @@
     font-style: normal;
 }
 
-@-ms-viewport{
+/*@-ms-viewport{
   width: device-width;
-}
+}*/
 body {
 	margin: 0;
 	padding: 0;
@@ -131,6 +131,7 @@ h3 {
 .dropdown-content a{
         display: block;
 }
+}
 
 
 .logo{
@@ -190,6 +191,7 @@ h3 {
   position: absolute;
   top: 480px;
   left: 450px;
+  margin-top: 90px;
 }
 
 @media (max-width: 1100px) {
@@ -199,7 +201,7 @@ h3 {
 }
 
 .timeline {
-  margin-top: 680px;
+  margin-top: 750px;
 }
 
 @media (max-width: 923px) {
@@ -426,14 +428,14 @@ h3 {
     -webkit-transform: translate(-20px); /* Safari */
   }
 }
-/*RESPONSIVE MOBILE iPHONE 6!!!!*/
-@media only screen 
+
+/*@media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
 
 }
-/* Portrait */
+
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
@@ -442,14 +444,14 @@ h3 {
 
 }
 
-/* Landscape */
+
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
 
-}
+}*/
 
 
 @media screen and (max-width: 620px) {
