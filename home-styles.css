@@ -240,6 +240,13 @@ h3 {
   }
 }
 
+@media (max-width: 620px) {
+  .dropdown-content {
+    background-color: rgba(0,0,0,0.8);
+    z-index: 400;
+  }
+}
+
 @media (max-width: 590px) {
   h3 {
   bottom: 420px;
@@ -717,6 +724,13 @@ h3 {
   .container:hover .overlay {
     width: 170.5%;
     margin-left: -9%;
+  }
+}
+
+@media (max-width: 410px) {
+  .container:hover .overlay {
+    width: 170.5%;
+    margin-left: -6.5%;
   }
 }
 
