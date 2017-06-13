@@ -59,7 +59,6 @@ h3 {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: .5s;
 }
 
 .nav-container{
@@ -982,11 +981,6 @@ input {
   margin: 5px 0;
 }
 
-#subscribe:hover{
-  background: #1E73BE;
-  transition: .5s;
-}
-
 @media screen and (max-width: 900px) {
   #footer-info {
     font-size: 17pt;
@@ -998,8 +992,6 @@ input {
     width: 100%;
   }
 }
-
-
 
 
 
