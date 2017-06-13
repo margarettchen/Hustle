@@ -367,18 +367,19 @@ h3 {
 }
 
 .timeline ul li .square::before {
-  content: '';
+  display: none;
+/*  content: '';
   position: absolute;
   bottom: 7px;
   width: 0;
   height: 0;
-  border-style: solid;
+  border-style: solid;*/
 }
 .square::before {
   background-color: #040075 transparent transparent;
 }
 .timeline ul li:nth-child(odd) .square{
-  left: 35px;
+  left: 12px;
 }
 
 .timeline ul li:nth-child(odd) .square::before {
@@ -394,7 +395,7 @@ h3 {
   display: none;
 }
 .timeline ul li:nth-child(even) .square{
-  right: 430px;
+  right: 438px;
 }
 
 @media screen and (max-width: 950px) {
@@ -407,12 +408,18 @@ h3 {
     border-width: 8px 0 8px 16px;
     background-color: rgb(51, 50, 67);
   }
+  .timeline ul li:nth-child(odd) .square{
+  left: 15px;
+}
 }
 @media screen and (max-width: 920px) {
   .timeline ul, menu, dir {
       -ms-transform: translate(-300px);
       -webkit-transform: translate(-300px);
   }
+  .timeline ul li:nth-child(odd) .square{
+  left: 30px;
+}
   
   .timeline{
     overflow-x: hidden;
