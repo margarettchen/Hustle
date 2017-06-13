@@ -59,6 +59,7 @@ h3 {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
+  transition: .5s;
 }
 
 .nav-container{
@@ -399,6 +400,7 @@ h3 {
   height: 0;
   border-style: solid;*/
 }
+
 .square::before {
   background-color: #040075 transparent transparent;
 }
@@ -420,6 +422,15 @@ h3 {
 }
 .timeline ul li:nth-child(even) .square{
   right: 438px;
+}
+
+.square:hover {
+  box-shadow:
+    1px 1px #53a7ea,
+    2px 2px #53a7ea,
+    3px 3px #53a7ea;
+  -webkit-transform: translateX(-3px);
+  transform: transslateX(-3px);
 }
 
 @media screen and (max-width: 950px) {
@@ -971,6 +982,11 @@ input {
   margin: 5px 0;
 }
 
+#subscribe:hover{
+  background: #1E73BE;
+  transition: .5s;
+}
+
 @media screen and (max-width: 900px) {
   #footer-info {
     font-size: 17pt;
@@ -982,6 +998,8 @@ input {
     width: 100%;
   }
 }
+
+
 
 
 
