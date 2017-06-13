@@ -301,6 +301,24 @@ h3 {
 
 }
 
+@media (max-width: 410px) {
+  h3 {
+    left: 10%;
+    font-size: 23px;
+  }
+
+  #typewriting {
+    font-size: 45px;
+  }
+
+  .myButton {
+    margin-top: -140px;
+  }
+}
+
+
+
+
 /*CSS FOR TIMELINE*/
 
 .timeline h1 {
