@@ -597,8 +597,8 @@ h3 {
   }
 
   .container:hover .overlay {
-    width: 171%;
-    margin-left: 1%;
+    width: 170.5%;
+    margin-left: 3%;
   }
 
   #two {
@@ -609,6 +609,13 @@ h3 {
   #six {
     margin-left: 8%;
     margin-top: -5.5%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .container:hover .overlay {
+    width: 170.5%;
+    margin-left: 2%;
   }
 }
 
